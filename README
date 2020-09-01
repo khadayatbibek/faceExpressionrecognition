@@ -1,0 +1,9 @@
+get dataset for facial Expression recognition from google
+
+then train your model by running TrainingModel_FaceExpressionRec.py 
+
+In TrainingModel_FaceExpressionRec.py adjust the size of image  as your data set. In my data set i have imiages of 48*48
+
+After running TrainingModel_FaceExpressionRec.py file it will genereate Emotion.h5 file 
+
+Now run testModel_faceExpressionRec.py using Emotion.h5 file
